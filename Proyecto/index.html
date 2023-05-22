@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pagina Wed</title>
+  <!-- Esto sirve para colocar un icono a la pestaña de la pagina wed -->
+  <link rel="icon" href="img/seguridad-informatica.ico">
 </head>
 
 <body>
@@ -18,12 +20,18 @@
     <script>
       // Obtén una referencia al botón
       var button = document.getElementById("myButton");
-        
+
       // Agrega un evento de clic al botón
-      button.addEventListener("click", function() {
-        // Aquí puedes realizar la acción que desees
-        //alert("¡Has presionado el botón!");
-        a
+      button.addEventListener("click", function () {
+
+        //Esta redirige a otra pagina pero la habre en una nueva pestaña 
+        window.open("http://127.0.0.1:5500/Proyecto/index.html");
+        //window.open("https://www.youtube.com/");
+
+
+        //Esto habre una pagina pero en la misma pestaña
+        //window.location.href = "https://www.youtube.com/" ;
+
       });
     </script>
 </body>
