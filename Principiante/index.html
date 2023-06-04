@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prácticas</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <table style="width: 500px;">
+        <thead>
+        <tbody>
+            <tr>
+                <th>Nombre</th>
+                <th>Sueldo</th>
+            </tr>
+            </thead>
+            <tr>
+                <td>Rafael</td>
+                <td>480$</td>
+            </tr>
+            <tr>
+                <td>Santiago</td>
+                <td>500$</td>
+            </tr>
+            <tr>
+                <td>Ponceeeeeeeeeeeeeeeeeeeeeeeee</td>
+                <td>100$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 1080$</td>
+        </tfoot>
+    </table>
+    <ul>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+    </ul>
+
+    <ol>
+        <!-- value="50" se usa para darle un valor donde empezar-->
+        <li value="50">elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">sub elemento 1</li>
+                <li style="list-style-type: lower-roman;">sub elemento 2</li>
+                <li style="list-style-type: lower-roman;">sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+
+
+
+    <h1>Primera web</h1>
+    <h2>Primer heading</h2>
+    <p>La etiqueta hr hace una separación</p>
+    <hr>
+    <h2>Ahora seguimos con otras etiquetas</h2>
+    <!-- Ahprs udsmos la etiqueta de span es para referenciar una palabra dando un poco de css-->
+    <p>continuamos vamos aver como funciona la <span style="color: blue;">etiqueta de spam</span>
+        en el lenguaje de html</p>
+
+    <!-- los comentarios no aparece en el navegador solo si 
+        usamos clic derecho y damos inspeccionar -->
+
+    <!-- vamos aver una etiqueta de iper vinculo q es la <a></a>-->
+    <a href="https://chat.openai.com/">Ir a chat gpt desde la misma pestaña</a><br>
+    <!-- para abrirla en otro pestaña el chat gpt se usa una propiedad dentro de 
+    la etiqueta de apertura-->
+    <a target="_blank" href="https://chat.openai.com/">Esta abre el chat gpt en otra pestaña</a><br>
+    <img src="ima/cafe.jpg" width="200" />
+
+    <!-- Veremos Formularios-->
+    <form action="/formulario" method="get">
+        <label for="nombre">Nombre:</label>
+        <!-- en input se puede coloar diferentes propiedades como buton, chet 
+        text, pasvor entre otros-->
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+        <br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" placeholder="Apellido" name="apellido">
+        <br><br>
+        <label for="comentario">Comentario</label><br>
+        <textarea cols="50" rows="10" id="comentario" name="comenatrio"></textarea>
+        <br>
+        <!-- <input type="submit"> -->
+        <button type="button"><img src="ima/seguridad-informatica.ico" />Tipo boton con imagen</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+
+    </form>
+</body>
+
+</html>
