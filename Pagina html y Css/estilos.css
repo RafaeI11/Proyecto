@@ -7,17 +7,19 @@
      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  }
 
+ h1 {
+    color: aqua;
+    text-align: center;
+}
+
+/*
  #titulo {
      color: lavender;
      font-size: 40px;
      text-align: center;
  }
 
- h1 {
-     color: aqua;
-     text-align: center;
- }
-
+ 
  .contenedor {
      overflow: auto;
      text-align: left;
@@ -32,8 +34,7 @@
  }
 
 
- /*termina un proceso como el de color el parrafo al lado de la imagen*/
- .clear {
+ termina un proceso como el de color el parrafo al lado de la imagen
      clear: both;
  }
 
@@ -47,8 +48,13 @@
  a:hover {
      color: aqua;
  }
+*/
+.formulario{
 
- /* img {
-      width: 40%; 
-     margin: auto;
- } */
+    color: blanchedalmond;
+    font-size: larger;
+    border: solid white;
+    padding: 20px;
+    width: 250px;
+}
+
